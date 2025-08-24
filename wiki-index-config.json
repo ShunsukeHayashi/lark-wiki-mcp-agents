@@ -1,0 +1,186 @@
+{
+  "wikis": [
+    {
+      "spaceId": "7520526284150013985",
+      "name": "メインWiki",
+      "searchEnabled": true
+    },
+    {
+      "spaceId": "7324483648537755682",
+      "name": "プロジェクトWiki",
+      "searchEnabled": true
+    }
+  ],
+  "indexes": [
+    {
+      "nodeToken": "EWGddepmtoBQ4KxqhJljVQUgpyb",
+      "spaceId": "7520526284150013985",
+      "title": "📊 プロジェクト管理インデックス",
+      "topics": [
+        "project-planning",
+        "issues-risks"
+      ],
+      "autoUpdate": true
+    },
+    {
+      "nodeToken": "LYQudauE3okx7exF5fdjL5Ycphf",
+      "spaceId": "7520526284150013985",
+      "title": "🔧 技術文書インデックス",
+      "topics": [
+        "technical-docs",
+        "api-docs"
+      ],
+      "autoUpdate": true
+    },
+    {
+      "nodeToken": "DAnedsOztopz2Bxix1bjNE8Apic",
+      "spaceId": "7520526284150013985",
+      "title": "📝 会議・報告インデックス",
+      "topics": [
+        "meeting-notes",
+        "progress-reports"
+      ],
+      "autoUpdate": true
+    }
+  ],
+  "topics": {
+    "project-planning": {
+      "id": "project-planning",
+      "name": "プロジェクト計画",
+      "keywords": [
+        "計画",
+        "企画",
+        "planning",
+        "proposal",
+        "提案",
+        "ロードマップ"
+      ],
+      "includePatterns": [],
+      "excludePatterns": [],
+      "priority": 1
+    },
+    "technical-docs": {
+      "id": "technical-docs",
+      "name": "技術文書",
+      "keywords": [
+        "技術",
+        "API",
+        "システム",
+        "architecture",
+        "設計",
+        "仕様書"
+      ],
+      "priority": 2
+    },
+    "api-docs": {
+      "id": "api-docs",
+      "name": "API文書",
+      "keywords": [
+        "API",
+        "エンドポイント",
+        "endpoint",
+        "REST",
+        "GraphQL",
+        "仕様"
+      ],
+      "priority": 2
+    },
+    "meeting-notes": {
+      "id": "meeting-notes",
+      "name": "会議記録",
+      "keywords": [
+        "会議",
+        "ミーティング",
+        "meeting",
+        "議事録",
+        "打ち合わせ"
+      ],
+      "priority": 3
+    },
+    "progress-reports": {
+      "id": "progress-reports",
+      "name": "進捗報告",
+      "keywords": [
+        "進捗",
+        "報告",
+        "progress",
+        "status",
+        "report",
+        "週報",
+        "月報"
+      ],
+      "priority": 2
+    },
+    "issues-risks": {
+      "id": "issues-risks",
+      "name": "課題・リスク",
+      "keywords": [
+        "課題",
+        "リスク",
+        "issue",
+        "risk",
+        "problem",
+        "問題",
+        "障害"
+      ],
+      "priority": 1
+    },
+    "requirements": {
+      "id": "requirements",
+      "name": "要件定義",
+      "keywords": [
+        "要件",
+        "要求",
+        "requirement",
+        "仕様",
+        "spec",
+        "RFP"
+      ],
+      "priority": 1
+    },
+    "testing": {
+      "id": "testing",
+      "name": "テスト・品質",
+      "keywords": [
+        "テスト",
+        "test",
+        "QA",
+        "品質",
+        "quality",
+        "バグ",
+        "bug"
+      ],
+      "priority": 2
+    },
+    "release": {
+      "id": "release",
+      "name": "リリース",
+      "keywords": [
+        "リリース",
+        "release",
+        "デプロイ",
+        "deploy",
+        "本番",
+        "production"
+      ],
+      "priority": 1
+    },
+    "documentation": {
+      "id": "documentation",
+      "name": "ドキュメント",
+      "keywords": [
+        "ドキュメント",
+        "document",
+        "マニュアル",
+        "manual",
+        "ガイド",
+        "guide"
+      ],
+      "priority": 3
+    }
+  },
+  "app": {
+    "appId": "cli_a8d2fdb1f1f8d02d",
+    "appSecret": "V7mzILXEgIaqLwLXtyZstekRJsjRsFfJ"
+  }
+}
