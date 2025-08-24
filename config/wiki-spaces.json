@@ -1,0 +1,31 @@
+{
+  "wikiSpaces": [
+    {
+      "name": "Original Demo Space",
+      "spaceId": "7324483648537755682",
+      "rootNodeToken": "K7xUwSKH0i3fPekyD9ojSsCLpna",
+      "description": "Original demo Wiki space from CLAUDE.md",
+      "status": "permission_required"
+    },
+    {
+      "name": "ホームページ",
+      "spaceId": "7520526284150013985",
+      "rootNodeToken": "JqgNwZybNildpqkvLnGje92Hp0c",
+      "objToken": "Z02fdPUh6ontXbxAoPtjknTGpwP",
+      "objType": "docx",
+      "description": "Accessible Wiki space with confirmed permissions",
+      "status": "active",
+      "url": "https://f82jyx0mblu.jp.larksuite.com/wiki/JqgNwZybNildpqkvLnGje92Hp0c",
+      "hasChild": false,
+      "nodeType": "origin",
+      "originNodeToken": "JqgNwZybNildpqkvLnGje92Hp0c",
+      "originSpaceId": "7520526284150013985",
+      "title": "ホームページ",
+      "objCreateTime": "1735017638",
+      "objEditTime": "1735017638",
+      "nodeCreateTime": "1735017638"
+    }
+  ],
+  "defaultSpace": "7520526284150013985",
+  "lastUpdated": "2024-12-24T07:00:00Z"
+}

@@ -56,8 +56,9 @@ cd ..
 cat > .env << EOF
 LARK_APP_ID=your_app_id
 LARK_APP_SECRET=your_app_secret
-WIKI_SPACE_ID=7324483648537755682
-ROOT_NODE_TOKEN=K7xUwSKH0i3fPekyD9ojSsCLpna
+# Use the working Wiki space (ホームページ)
+WIKI_SPACE_ID=7520526284150013985
+ROOT_NODE_TOKEN=JqgNwZybNildpqkvLnGje92Hp0c
 EOF
 ```
 
