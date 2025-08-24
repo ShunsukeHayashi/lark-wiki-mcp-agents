@@ -1,0 +1,50 @@
+{
+  "name": "lark-wiki-mcp-agents",
+  "version": "1.0.0",
+  "description": "Lark Wiki control agents using MCP tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint": "eslint src tests --ext .ts",
+    "start:agent": "node dist/cli.js",
+    "start:mcp": "cd lark-openapi-mcp-enhanced && yarn build && node dist/cli.js mcp"
+  },
+  "keywords": [
+    "lark",
+    "feishu",
+    "wiki",
+    "mcp",
+    "agent",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.29.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=16.20.0"
+  }
+}
