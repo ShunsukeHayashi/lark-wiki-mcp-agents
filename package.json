@@ -13,7 +13,13 @@
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
     "lint": "eslint src tests --ext .ts",
     "start:agent": "node dist/cli.js",
-    "start:mcp": "cd lark-openapi-mcp-enhanced && yarn build && node dist/cli.js mcp"
+    "start:mcp": "cd lark-openapi-mcp-enhanced && yarn build && node dist/cli.js mcp",
+    "wiki-index": "node dist/cli-index-manager.js",
+    "example:topic": "ts-node examples/topic-index-example.ts"
+  },
+  "bin": {
+    "wiki-agent": "./dist/cli.js",
+    "wiki-index": "./dist/cli-index-manager.js"
   },
   "keywords": [
     "lark",
